@@ -22,8 +22,7 @@ import { LoginComponent } from './pages/login/login.component';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatBadgeModule} from '@angular/material/badge';
-
-
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -51,7 +50,8 @@ import {MatBadgeModule} from '@angular/material/badge';
     MatToolbarModule,
     MatInputModule,
     MatButtonModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatExpansionModule
   ],
   providers: [
     provideAnimationsAsync()
